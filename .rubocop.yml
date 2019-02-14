@@ -1,0 +1,10 @@
+AllCops:
+  Exclude:
+    - 'err-storm.gemspec'
+    - 'Gemfile'
+    - 'Rakefile'
+    - 'spec/spec_helper.rb'
+    - 'bin/console'
+    - 'lib/err/storm/version.rb'
+    - 'spec/err/storm_spec.rb'
+    - 'lib/err/storm.rb'
