@@ -1,4 +1,6 @@
 require "bundler/setup"
+require 'simplecov'
+SimpleCov.start
 require "err_broad_cast"
 
 RSpec.configure do |config|
