@@ -1,5 +1,6 @@
 require 'err_broad_cast/version'
 require 'err_broad_cast/logger'
+require 'err_broad_cast/transports/quiet'
 
 module ErrBroadCast
   class Error < StandardError; end
