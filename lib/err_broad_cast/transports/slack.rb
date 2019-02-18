@@ -15,7 +15,7 @@ module ErrBroadCast
         'slack'
       end
 
-      def up_to_level?
+      def up_to_level?(level)
         true
       end
 
