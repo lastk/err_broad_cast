@@ -41,7 +41,8 @@ module ErrBroadCast
     def find_transports(level, format, names)
       transport_names = Array(names)
       # rubocop:disable LineLength
-      transports = @transports.select { |t| (t.up_to_level? level) && (t.format == format) }
+      #transports = @transports.select { |t| (t.up_to_level? level) && (t.format == format) }
+      transports = @transports
       # rubocop:enable LineLength
       return transports if Array(names).empty?
 
